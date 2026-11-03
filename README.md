@@ -25,6 +25,7 @@ by eddie@5xcampus.com
 | `4.1-agents-md` | 把班導師的規矩搬到 AGENTS.md |
 | `4.2-agent-evaluation` | 固定測資與 rubric 評估 |
 | `4.3-memory-compression` | 本機記憶與摘要壓縮 |
+| `5.1-planner-loop` | 結構化 plan → act → observe |
 
 ## 開發環境
 
@@ -37,6 +38,7 @@ cp .env.example .env
 npm start
 npm test      # 不需 API Key 的單元測試
 npm run eval  # 需要 OPENAI_API_KEY，外部工具使用固定測試資料
+npm run plan  # 先產生結構化計畫，再依序執行允許的工具
 ```
 
 互動模式可輸入 `:memory` 查看目前摘要與近期回合數，輸入 `:clear`
