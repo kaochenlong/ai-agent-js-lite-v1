@@ -26,6 +26,7 @@ by eddie@5xcampus.com
 | `4.2-agent-evaluation` | 固定測資與 rubric 評估 |
 | `4.3-memory-compression` | 本機記憶與摘要壓縮 |
 | `5.1-planner-loop` | 結構化 plan → act → observe |
+| `5.2-feedback-guardrails` | 失敗分類、有限重試與 guardrails |
 
 ## 開發環境
 
