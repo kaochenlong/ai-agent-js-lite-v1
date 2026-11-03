@@ -23,6 +23,7 @@ by eddie@5xcampus.com
 | `3.1-agents-sdk` | Agents SDK、handoff 與跨輪狀態 |
 | `3.2-mcp-server` | MCP server |
 | `4.1-agents-md` | 把班導師的規矩搬到 AGENTS.md |
+| `4.2-agent-evaluation` | 固定測資與 rubric 評估 |
 
 ## 開發環境
 
@@ -33,6 +34,8 @@ GitHub Codespaces 會依 `.devcontainer/devcontainer.json` 建立 Node.js 22
 npm install
 cp .env.example .env
 npm start
+npm test      # 不需 API Key 的單元測試
+npm run eval  # 需要 OPENAI_API_KEY，外部工具使用固定測試資料
 ```
 
 ## 外部服務
