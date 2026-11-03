@@ -1,0 +1,16 @@
+{
+  "name": "ai-agent-js-lite-v1",
+  "version": "0.1.0",
+  "description": "AI Agent 實作工作坊精簡版（JavaScript 版）",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9"
+  }
+}
