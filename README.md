@@ -22,6 +22,7 @@ by eddie@5xcampus.com
 | `2.5-tool-calling-current-time` | Zod schema 與執行期驗證 |
 | `3.1-agents-sdk` | Agents SDK、handoff 與跨輪狀態 |
 | `3.2-mcp-server` | MCP server |
+| `4.1-agents-md` | 把班導師的規矩搬到 AGENTS.md |
 
 ## 開發環境
 
