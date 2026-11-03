@@ -27,6 +27,7 @@ by eddie@5xcampus.com
 | `4.3-memory-compression` | 本機記憶與摘要壓縮 |
 | `5.1-planner-loop` | 結構化 plan → act → observe |
 | `5.2-feedback-guardrails` | 失敗分類、有限重試與 guardrails |
+| `5.3-capstone-course-advisor` | 課程顧問 Capstone |
 
 ## 開發環境
 
@@ -40,6 +41,8 @@ npm start
 npm test      # 不需 API Key 的單元測試
 npm run eval  # 需要 OPENAI_API_KEY，外部工具使用固定測試資料
 npm run plan  # 先產生結構化計畫，再依序執行允許的工具
+npm run capstone       # 課程顧問
+npm run eval:capstone  # 課程顧問的 live eval
 ```
 
 互動模式可輸入 `:memory` 查看目前摘要與近期回合數，輸入 `:clear`
@@ -49,5 +52,6 @@ npm run plan  # 先產生結構化計畫，再依序執行允許的工具
 
 - `OPENAI_API_KEY`：1.2 起需要。
 - `OPENWEATHER_API_KEY`：2.2 的天氣工具需要。
+- 5.3 課程顧問的課程目錄跟書單都是 repo 內的示範資料，不需要其他服務。
 
 金鑰只放在 `.env` 或 Codespaces secrets，不要提交到 Git。
