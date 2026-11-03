@@ -2,8 +2,7 @@
 
 by eddie@5xcampus.com
 
-這是 AI Agent 課程的精簡版，沒有 RAG。全程使用 Node.js 22、OpenAI Node SDK v7
-的 Responses API、`@openai/agents` 與 MCP，模型全程使用 `gpt-6-luna`，
+全程使用 Node.js 22、OpenAI Node SDK v7 的 Responses API、`@openai/agents` 與 MCP，模型全程使用 `gpt-6-luna`，
 從 `3.1-agents-sdk` 開始把 reasoning effort 設成 `low`。
 
 ## 章節進度（分支）
